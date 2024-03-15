@@ -65,6 +65,4 @@ yarn-error.log
 # testing
 /coverage
 
-/harmony/*
-
-/harmony/entry/src/main/resources/rawfile/bundle.harmony.js
+/harmony
