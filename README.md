@@ -7,7 +7,7 @@
 ## 2023-03-15 RN 接入鸿蒙 SDK
 
 步骤
-1. 添加鸿蒙工具到 RNForHarmony 工程同级目录下 (因保密需求,文件不上传到)
+1. 添加鸿蒙工具到 RNForHarmony 工程同级目录下 (因保密需求,相关资料无法上传)
 
    ![目录结构](img/rn_harmony.jpg)
 
@@ -20,7 +20,7 @@
     ...
     "react-native-harmony": "file:../react-native-harmony/rnoh-react-native-harmony-0.72.13.tgz"
   }
-  ```
+```
 
 3. 替换接入文档中的其他文件, 主要是一些 UI 页面
 
@@ -41,5 +41,5 @@
       "dev": "react-native bundle-harmony --dev"
     },
   ```
-  ` bundle-harmony` 命令依赖于第二步配置的工具
+  `bundle-harmony` 命令依赖于第二步配置的工具
 
