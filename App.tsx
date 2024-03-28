@@ -1,39 +1,37 @@
 
- import * as React from 'react';
- import {Text, View, StyleSheet, Pressable} from 'react-native';//注入组件
- const App = (): React.Node => {
-   return (
+import * as React from 'react';
+import { Text, View, StyleSheet, Pressable } from 'react-native';//注入组件
+const App = () => {
+  return (
     <Pressable onPress={() => {
-      console.log("Hello World")
+      console.log("Hello World RN")
     }}>
-    <View style={styles.container}>
-      <Text style={styles.title}>
-        Hello World~
-      </Text>
-      <Text style={styles.content}>
-        在 VSCode222 的控制台上输入d，便可看到手机上弹出了React Nactive Dev Menu对话框。
-        开发者可通过Element Inspector查看RN元素的盒子模型及样式。
-      </Text>
-    </View>
-  </Pressable>
-   );
- };
- export default App;
- const styles = StyleSheet.create({//创建样式
+      <View style={styles.container}>
+        <Text style={styles.title}>
+          Hello World ~ RN
+        </Text>
+        <Text style={styles.content}>
+          这里是 RN 开发的页面, 用一个 Text 展示文案
+        </Text>
+      </View>
+    </Pressable>
+  );
+};
+export default App;
+const styles = StyleSheet.create({//创建样式
   container: {
     backgroundColor: 'white',
     height: '100%',
     justifyContent: 'center',
     padding: 20,
   },
-  title:{
+  title: {
     textAlign: 'left',
-    fontSize:40
+    fontSize: 40
   },
-  content:{
+  content: {
     marginTop: 10,
     fontSize: 16,
     textAlign: 'left'
   }
- });
- 
+});
