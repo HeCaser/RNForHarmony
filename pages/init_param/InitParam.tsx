@@ -10,7 +10,7 @@ const InitParam = (prop: object) => {
         console.log(`hepan 参数 = ${JSON.stringify(prop)}`)
     }
     return (
-        <View style={{ width: '100%', height: '100%', marginTop: 100, padding: 20, backgroundColor: 'gray' }}>
+        <View style={{ width: '100%', height: '100%', marginTop: 10, padding: 20, backgroundColor: 'gray' }}>
             <Button title='点击打印初始化参数' onPress={printProp}></Button>
             <Text style={{ marginTop: 20 }}>
                 初始化参数:{JSON.stringify(prop)}

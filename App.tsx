@@ -20,7 +20,8 @@ const App = () => {
 export default App;
 const styles = StyleSheet.create({//创建样式
   container: {
-    backgroundColor: 'white',
+    backgroundColor: 'gray',
+    marginTop: 16,
     height: '100%',
     justifyContent: 'center',
     padding: 20,
