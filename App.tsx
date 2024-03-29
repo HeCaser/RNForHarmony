@@ -21,8 +21,7 @@ export default App;
 const styles = StyleSheet.create({//创建样式
   container: {
     backgroundColor: 'gray',
-    marginTop: 16,
-    height: '100%',
+    height: '95%',
     justifyContent: 'center',
     padding: 20,
   },
