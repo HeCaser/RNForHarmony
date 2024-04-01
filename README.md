@@ -4,7 +4,7 @@
 - ReactNative 版本: 0.72.5 
 
 
-## 2023-03-15 RN 接入鸿蒙 SDK
+## 2024-03-15 RN 接入鸿蒙 SDK
 
 步骤
 1. 添加鸿蒙工具到 RNForHarmony 工程同级目录下 (因保密需求,相关资料无法上传)
@@ -43,3 +43,16 @@
   ```
   `bundle-harmony` 命令依赖于第二步配置的工具
 
+
+## 2024-04-01 Bridge
+
+### RN 侧
+
+- 在 React Native 0.70.0 之后, RN 与 Native 通信改为 `TurboModule`
+
+1. 自定义 TurboModule [SampleTurboModule](./pages/bridge/rn_call_native/SampleTurboModule.tsx)
+
+2. RN 调用相关方法 [RnCallNative](./pages/bridge/rn_call_native/RnCallNative.tsx)
+
+
+### 鸿蒙侧 
