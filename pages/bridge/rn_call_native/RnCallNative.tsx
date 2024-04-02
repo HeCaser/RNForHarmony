@@ -33,6 +33,7 @@ const RnCallNative = () => {
             // 失败接收到 object 类型  reject('rejected on native side');
             setResult3(`\n promise 失败 value = ${JSON.stringify(value)}`)
         })
+    
     }
 
     interface ItemProp {
@@ -49,7 +50,7 @@ const RnCallNative = () => {
     }
 
     return (
-        <View style={{ width: '100%', marginTop: 10, padding: 20, backgroundColor: 'gray' }}>
+        <View style={{ width: '100%',  padding: 16, backgroundColor: 'gray' }}>
             <Item title={'调用 rnLog, 可传参数, 无返回'} onPress={rnLog}></Item>
             <Item title={`调用 pushStringToHarmony, 可传两个参数, 接收 string 返回值: ${result1}`} onPress={pushStringToHarmony}></Item>
             <Item title={`调用 registerFunction, 传递一个回调函数 (value: string) => void  ${result2}`} onPress={registerFunction}></Item>
