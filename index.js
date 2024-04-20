@@ -8,5 +8,6 @@ import InitParam from './pages/init_param/InitParam';
 import BridgeDemo from './pages/bridge/BridgeDemo';
 
 AppRegistry.registerComponent('app_name', () => App);
+AppRegistry.registerComponent('app_key', () => App);
 AppRegistry.registerComponent('init_param', () => InitParam)
 AppRegistry.registerComponent('bridge', () => BridgeDemo)

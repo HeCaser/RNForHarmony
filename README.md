@@ -56,3 +56,5 @@
 
 
 ### 鸿蒙侧 
+
+鸿蒙侧改动见 [HarmonyForRN](https://github.com/HeCaser/HarmonyForRN)
